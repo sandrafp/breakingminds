@@ -11,6 +11,7 @@
     margin-bottom: 25px;
     transition: .3s ease-in-out;
     border-radius: 4px;
+    vertical-align: top;
 }
 .category__box:hover {
     border: 2px solid #FC025A; 
@@ -23,7 +24,7 @@
     text-decoration: none;
 }
 .category__link {
-    padding: 25px;
+    padding: 25px 15px;
     display: block;  
 }
 .category__type {
