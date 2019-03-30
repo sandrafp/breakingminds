@@ -34,7 +34,19 @@
     padding-bottom: 30px;
     font-size: 20px;
 }
-
+.register {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center; 
+    color: #fff;
+    font-family: 'Comfortaa';
+}
+.register a {
+    font-size: 20px;
+    color: #fff;
+}
 @media (max-width: 600px) {
     .card-inputs {
         margin: 15% auto;
