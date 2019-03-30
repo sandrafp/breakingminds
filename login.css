@@ -1,0 +1,42 @@
+.color-primary {
+    background-color: #FC025A;
+}
+.card-title {
+    padding: 50px 0;
+}
+.name-app {
+    color: #fff;
+    font-family: 'Comfortaa';
+    display: inline-block;
+}
+.icon-logo {
+    vertical-align: unset;    
+}
+.card-inputs {
+    width: 60%;
+    margin: 5% auto;
+    font-family: 'Comfortaa';
+}
+.card-inputs input {
+    /* width: 200px; */
+    margin-bottom: 25px;
+}
+
+.btn-entrar {
+    background-color: #FC025A;
+    color: #fff;
+    margin-top: 50px;
+}
+.btn-entrar:hover {
+    color: #fff;
+}
+.title2 {
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .card-inputs {
+        margin: 15% auto;
+    }
+  }
