@@ -1,0 +1,44 @@
+.profile {
+
+}
+
+.profile__info {
+    margin-bottom: 30px;
+}
+
+.profile__description {
+    color: #000000;
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.profile__tag {
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #777777;
+    transition: .3s;
+    text-decoration: none;
+}
+.profile__tag:hover {
+    color: #000000;
+}
+.profile__subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+@media (min-width: 768px) { 
+    .profile__description {
+        font-size: 18px;
+    }
+    .profile__tag {
+        font-size: 18px;
+    }
+    .profile__subtitle {
+        font-size: 22px;
+        margin: 0 0 20px 0;
+    }
+}
