@@ -1,0 +1,12 @@
+.container-fluid {
+    width: 100%;
+    max-width: 1990px;
+}
+
+section {
+    padding: 60px 0;
+}
+
+a {
+    display: inline-block;
+}
